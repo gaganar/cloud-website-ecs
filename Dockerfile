@@ -7,7 +7,6 @@ WORKDIR /usr/local/app
 
 COPY . .
 
-ENTRYPOINT ["pm2", "--no-daemon", "start"]
 
 # Actual script to start can be overridden from `docker run`
-CMD ["process.json"]
+CMD ["node", "app.js"]

@@ -1,0 +1,26 @@
+[
+  {
+    "ParameterKey": "DockerImageURL",
+    "ParameterValue": "103089546932.dkr.ecr.us-east-1.amazonaws.com/sample:latest"
+  },
+  {
+    "ParameterKey": "DesiredCapacity",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.micro"
+  },
+  {
+    "ParameterKey": "MaxSize",
+    "ParameterValue": "5"
+  },
+  {
+    "ParameterKey": "SubnetIDs",
+    "ParameterValue": "subnet-0b851304,subnet-585ec912"
+  },
+  {
+    "ParameterKey": "VpcId",
+    "ParameterValue": "vpc-3a515541"
+  }
+]
